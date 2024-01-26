@@ -14,6 +14,7 @@ function ExpenseTracker() {
       });
   };
 
+  // api call
   useEffect(() => {
     getRandomDog();
   }, []);
