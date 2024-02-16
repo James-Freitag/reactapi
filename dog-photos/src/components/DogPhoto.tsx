@@ -22,14 +22,14 @@ function ExpenseTracker() {
   return (
     <div className=" h-screen flex justify-center mx-auto">
       <div className="mt-20 max-w-[500px]">
-        <h1 className="text-5xl mb-4 text-center">Random Photos</h1>
+        <h1 className="text-5xl mb-4 text-center">Random Dogs</h1>
         <div className="flex flex-col justify-center items-center">
           <button
             disabled={isLoading}
             onClick={getRandomDog}
             className="border-[1px] border-black py-1 px-4 bg-lime-600 hover:bg-lime-500 active:scale-95 active:bg-lime-400 rounded-lg mb-6"
           >
-            Get Photo
+            Get Doggo
           </button>
 
           <div className="flex w-full max-w-64 hover:max-w-[25rem] transition-all duration-300 ease-in">
